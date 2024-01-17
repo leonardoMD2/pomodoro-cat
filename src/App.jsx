@@ -156,7 +156,7 @@ const Pomodoro = () => {
       <section>
       
        {
-        start&&[<EndKitty number={2} anim='moving-right'/>, <EndKitty number={1} anim='moving-right'/> , <EndKitty number={3} anim='moving-left'/>]
+        start&&[<EndKitty number={2} anim='moving-right'/>, <EndKitty number={1} /> , <EndKitty number={3} anim='moving-left'/>]
        }
         
       
