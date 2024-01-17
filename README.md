@@ -1,8 +1,11 @@
-# React + Vite
+﻿## Pomodoro Cat v1
+### Comandos:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - npm/bun install
+ - npm/bun run dev
+### Tecnologias:
+ - React
+ - Tailwind
+### Próximas cosas para agregar:
+ - To-do list
+![enter image description here](https://res.cloudinary.com/practicaldev/image/fetch/s--jN6IfdPc--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v1tydxm59rtdymgkw7e7.png)
