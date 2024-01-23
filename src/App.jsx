@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
+import { InputTodo } from './todo'
 
 import './App.css'
 
@@ -121,17 +122,20 @@ const Pomodoro = () => {
   return (
     <>
       
-        {
-          <>
+       
+      <section className='w-[90%] lg:w-3/5 mx-auto '>
+      
+       <section>
+
             {
               start ? (<h1 ref={title} className='text-6xl'>{timer<10?`0${timer}`:timer}:{sec<10?`0${sec}`:sec}</h1>) : (<h1 ref={title} className='text-6xl'>00:00</h1>) 
             }
             {
               end&&(<h1 className='text-2xl text-slate-900 font-semibold flex items-end'><EndKitty number={2}/>¡Concluido! <EndKitty number={1}/></h1>)
             }
-          </>
-        }
-      <section className='w-[90%] lg:w-3/5 mx-auto mt-5'>
+       </section>
+        
+        
         
         <input className='lg:w-[50%] mx-auto mb-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-0.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500' type="number" name="timer" placeholder='Ingresar el tiempo' id="" ref={input} onChange={(e) => handleInput(e)}/>
 
@@ -151,7 +155,7 @@ const Pomodoro = () => {
 
         </section>
 
-      
+        <InputTodo/>
       </section>
       <section>
       
