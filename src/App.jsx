@@ -125,7 +125,7 @@ const Pomodoro = () => {
        
       <section className='w-[90%] lg:w-3/5 mx-auto '>
       
-       <section>
+       <section className='my-5'>
 
             {
               start ? (<h1 ref={title} className='text-6xl'>{timer<10?`0${timer}`:timer}:{sec<10?`0${sec}`:sec}</h1>) : (<h1 ref={title} className='text-6xl'>00:00</h1>) 
